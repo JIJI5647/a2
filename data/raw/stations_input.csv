@@ -1,0 +1,433 @@
+station_id,name,lat,lon,site_type,connectors,max_kw,source_record_id
+ALB-01,nrma electric - Albury City Council,-36.08379184,146.9148338,regional,2,50.0,ev_00885
+ALB-02,tesla motors - Albury City Council,-36.0796606,146.9138899,regional,16,175.0,ev_01627
+ARM-01,nrma electric - Armidale Regional Council,-34.4476103,147.5348555,regional,2,50.0,ev_00735
+ARM-02,tesla motors - Armidale Regional Council,-30.5132305,151.6633637,regional,4,175.0,ev_01782
+BAL-01,bp - Ballina Shire Council,-28.86161666,153.5169069,regional,2,75.0,ev_00532
+BAL-02,chargefox - Ballina Shire Council,-28.85743948,153.5614054,regional,4,120.0,ev_00551
+BAL-03,tesla motors - Ballina Shire Council,-28.74953958,153.5347227,regional,12,130.0,ev_00853
+BAL-04,nrma electric - Balranald Shire Council,-34.63954159,143.5647087,regional,2,50.0,ev_00756
+BAL-05,nrma electric - Balranald Shire Council,-34.5765963,142.7428195,regional,4,175.0,ev_01446
+BAT-01,evie networks - Bathurst Regional Council,-33.41417222,149.5833564,regional,4,150.0,ev_00054
+BAT-02,exploren - Bathurst Regional Council,-33.42979584,149.560006,regional,2,120.0,ev_00924
+BAT-03,nrma electric - Bathurst Regional Council,-33.413357,149.5853256,regional,4,175.0,ev_01692
+BAT-04,tesla motors - Bathurst Regional Council,-33.41901006,149.5867568,regional,12,130.0,ev_01816
+BAT-05,nrma electric - Bathurst Regional Council,-33.41910215,149.5867528,regional,2,50.0,ev_01817
+BAY-01,evie networks - Bayside Council,-33.939429,151.1970375,urban,4,75.0,ev_00111
+BAY-02,ampol - Bayside Council,-33.9020166,151.2000104,urban,2,150.0,ev_00140
+BAY-03,exploren - Bayside Council,-33.94916821,151.2247958,urban,2,120.0,ev_00154
+BEG-01,chargefox - Bega Valley Shire Council,-36.6972593,149.8418629,regional,2,42.0,ev_00421
+BEG-02,nrma electric - Bega Valley Shire Council,-36.67324729,149.843047,regional,2,50.0,ev_00861
+BEL-01,nrma electric - Bellingen Shire Council,-30.9529988,148.3875852,regional,4,75.0,ev_00729
+BLA-01,bp - Blacktown City Council,-33.81100405,150.8495966,urban,4,150.0,ev_00002
+BLA-02,ampol - Blacktown City Council,-33.77436041,150.9448809,urban,2,150.0,ev_00067
+BLA-03,jolt - Blacktown City Council,-33.70040345,150.9283123,urban,2,25.0,ev_00175
+BLA-04,jolt - Blacktown City Council,-33.70051756,150.9281081,urban,2,25.0,ev_00176
+BLA-05,chargefox - Blacktown City Council,-33.71984389,150.918979,urban,4,40.0,ev_00286
+BLA-06,chargefox - Blacktown City Council,-33.75074779,150.8580751,urban,2,47.0,ev_00295
+BLA-07,evie networks - Blacktown City Council,-33.705677,150.876075,urban,4,50.0,ev_00341
+BLA-08,evie networks - Blacktown City Council,-33.7459827,150.8357299,urban,4,75.0,ev_00383
+BLA-09,ampol - Blacktown City Council,-33.7668115,150.9549656,urban,2,125.0,ev_00501
+BLA-10,chargefox - Blacktown City Council,-33.74376581,150.809028,urban,2,160.0,ev_00520
+BLA-11,evie networks - Blacktown City Council,-33.73460909,150.928265,urban,4,75.0,ev_00657
+BLA-12,jolt - Blacktown City Council,-33.73553158,150.8513123,urban,4,25.0,ev_00677
+BLA-13,ampol - Blacktown City Council,-33.716109,150.8453094,urban,2,125.0,ev_00747
+BLA-14,evie networks - Blacktown City Council,-33.69514919,150.8213664,urban,4,150.0,ev_00833
+BLA-15,ampol - Blacktown City Council,-33.80214519,150.8802132,urban,10,400.0,ev_00899
+BLA-16,ampol - Blacktown City Council,-33.80154859,150.886,urban,15,240.0,ev_00975
+BLA-17,nrma electric - Bland Shire Council,-33.92382187,147.2033794,regional,2,50.0,ev_00952
+BLU-01,ampol - Blue Mountains City Council,-33.7211325,150.4521067,urban,2,125.0,ev_00256
+BLU-02,evie networks - Blue Mountains City Council,-33.720695,150.429727,urban,4,50.0,ev_00565
+BLU-03,ampol - Blue Mountains City Council,-33.7653881,150.6214758,urban,2,125.0,ev_00713
+BLU-04,zeus renewables - Blue Mountains City Council,-33.7177016,150.3112897,urban,4,175.0,ev_01382
+BLU-05,tesla motors - Blue Mountains City Council,-33.7452292,150.6101288,urban,6,175.0,ev_01781
+BOG-01,nrma electric - Bogan Shire Council,-32.0506213,150.8667598,regional,4,75.0,ev_00225
+BOU-01,nrma electric - Bourke Shire Council,-30.3383734,152.7125414,regional,4,75.0,ev_00196
+BRE-01,nrma electric - Brewarrina Shire Council,-30.3247856,149.784033,regional,4,75.0,ev_00592
+BRO-01,nrma electric - Broken Hill City Council,-31.557857,143.3855021,regional,2,50.0,ev_00887
+BUR-01,jolt - Burwood Council,-33.88724929,151.0993353,urban,2,25.0,ev_00138
+BUR-02,jolt - Burwood Council,-33.87204909,151.0954464,urban,2,25.0,ev_00151
+BUR-03,jolt - Burwood Council,-33.87384989,151.1019449,urban,2,25.0,ev_00333
+BUR-04,jolt - Burwood Council,-33.86942247,151.108024,urban,2,25.0,ev_00434
+BUR-05,jolt - Burwood Council,-33.89474579,151.1096857,urban,2,25.0,ev_00613
+BUR-06,everty - Burwood Council,-33.86979084,151.1106677,urban,2,60.0,ev_00928
+BYR-01,nrma electric - Byron Shire Council,-28.63612817,153.5534605,regional,4,75.0,ev_00080
+BYR-02,evup - Byron Shire Council,-28.64327432,153.6158749,regional,2,100.0,ev_00396
+BYR-03,chargefox - Byron Shire Council,-28.6372513,153.5806587,regional,1,80.0,ev_00787
+BYR-04,chargefox - Byron Shire Council,-28.62590795,153.586978,regional,2,50.0,ev_01912
+CAB-01,nrma electric - Cabonne Council,-33.0912006,148.8706612,regional,4,175.0,ev_01772
+CAM-01,viva energy australia - Camden Council,-34.049425,150.7603383,urban,4,175.0,ev_00360
+CAM-02,evie networks - Camden Council,-34.0397301,150.7385139,urban,4,150.0,ev_00819
+CAM-03,exploren - Camden Council,-34.02030235,150.7634565,urban,4,150.0,ev_00877
+CAM-04,engie - Camden Council,-33.2445959,151.498974,urban,2,150.0,ev_00891
+CAM-05,ampol - Camden Council,-34.04010015,150.7435405,urban,4,150.0,ev_00917
+CAM-06,evie networks - Campbelltown City Council,-34.03094307,150.8490285,urban,4,75.0,ev_00051
+CAM-07,tesla motors - Campbelltown City Council,-34.0725934,150.8078816,urban,12,175.0,ev_00306
+CAM-08,evie networks - Campbelltown City Council,-34.07206311,150.8051261,urban,4,150.0,ev_00517
+CAM-09,chargefox - Campbelltown City Council,-34.07161666,150.8059289,urban,4,200.0,ev_00542
+CAM-10,evie networks - Campbelltown City Council,-33.97585397,150.811619,urban,4,75.0,ev_00591
+CAM-11,bp - Campbelltown City Council,-33.98851456,150.8593694,urban,4,150.0,ev_00757
+CAN-01,"evie networks - Canada Bay Council, City of",-33.85437842,151.103997,urban,2,75.0,ev_00378
+CAN-02,"evie networks - Canada Bay Council, City of",-33.86864269,151.1185836,urban,2,75.0,ev_00976
+CAN-03,bp - Canterbury Bankstown Council,-33.91960065,151.0668519,urban,2,75.0,ev_00364
+CAN-04,exploren - Canterbury Bankstown Council,-33.93524029,151.0986717,urban,2,120.0,ev_00440
+CAN-05,ampol - Canterbury Bankstown Council,-33.911492,151.0732469,urban,2,125.0,ev_00600
+CAN-06,evie networks - Canterbury Bankstown Council,-33.931975,151.030127,urban,4,50.0,ev_00783
+CAN-07,chargefox - Canterbury Bankstown Council,-33.91649454,151.0402563,urban,4,200.0,ev_00919
+CAN-08,tesla motors - Canterbury Bankstown Council,-33.9336017,151.0299345,urban,6,175.0,ev_01292
+CAN-09,evie networks - Canterbury Bankstown Council,-33.8791212,150.9776442,urban,4,175.0,ev_01712
+CEN-01,chargefox - Central Coast Council,-33.40941346,151.3507447,urban,2,60.0,ev_00435
+CEN-02,evie networks - Central Coast Council,-33.43668073,151.3943884,urban,4,75.0,ev_00665
+CEN-03,ampol - Central Coast Council,-33.4267831,151.321995,urban,2,125.0,ev_00680
+CEN-04,tesla motors - Central Coast Council,-33.31010015,151.4206827,urban,12,130.0,ev_00815
+CEN-05,bp - Central Coast Council,-33.36284489,151.4442893,urban,2,75.0,ev_00980
+CEN-06,tesla motors - Central Coast Council,-33.4258966,151.3205356,urban,12,175.0,ev_01517
+CEN-07,bp - Central Coast Council,-33.4082245,151.3511059,urban,6,175.0,ev_01561
+CEN-08,nrma electric - Central Darling Shire Council,-30.5118739,151.669395,regional,4,50.0,ev_00003
+CES-01,nrma electric - Cessnock City Council,-32.77342947,151.2982713,regional,4,75.0,ev_00313
+CIT-01,evie networks - City Of Canada Bay Council,-33.8538342,151.1054057,urban,4,75.0,ev_01752
+CIT-02,evie networks - City Of Canada Bay Council,-33.8696308,151.1223747,urban,4,75.0,ev_01789
+CLA-01,nrma electric - Clarence Valley Council,-29.68846451,152.933015,regional,2,50.0,ev_00137
+CLA-02,evie networks - Clarence Valley Council,-29.56122927,153.1492773,regional,4,350.0,ev_00401
+CLA-03,tesla motors - Clarence Valley Council,-29.42699904,153.2391471,regional,8,130.0,ev_00627
+COB-01,nrma electric - Cobar Shire Council,-30.08825,145.9351051,regional,2,50.0,ev_00416
+COF-01,bp - Coffs Harbour City Council,-30.29156861,153.1183714,regional,2,75.0,ev_00144
+COF-02,tesla motors - Coffs Harbour City Council,-30.28143948,153.1316667,regional,12,130.0,ev_00374
+COF-03,tesla motors - Coffs Harbour City Council,-30.27522227,153.1319389,regional,4,60.0,ev_00377
+COF-04,chargefox - Coffs Harbour City Council,-30.31793098,153.0897227,regional,2,270.0,ev_00927
+COF-05,tesla motors - Coffs Harbour City Council,-30.204973,153.1501028,regional,15,175.0,ev_01352
+COO-01,nrma electric - Coonamble Shire Council,-34.8411047,148.912197,regional,4,50.0,ev_00955
+COO-02,tesla motors - Cootamundra-gundagai Regional Council,-35.00212117,148.1098549,regional,12,130.0,ev_00470
+COO-03,tesla motors - Cootamundra-gundagai Regional Council,-34.9244264,148.1654233,regional,12,175.0,ev_01558
+COW-01,nrma electric - Cowra Shire Council,-33.83451056,148.6935365,regional,2,50.0,ev_00708
+CUM-01,evie networks - Cumberland Council,-33.77578997,150.9330864,urban,4,150.0,ev_00335
+CUM-02,evie networks - Cumberland Council,-33.8521028,150.9955836,urban,4,50.0,ev_00457
+DUB-01,tesla motors - Dubbo Regional Council,-32.24995,148.6091822,regional,8,130.0,ev_00706
+DUB-02,nrma electric - Dubbo Regional Council,-32.24936341,148.6091872,regional,2,50.0,ev_00977
+EUR-01,evie networks - Eurobodalla Shire Council,-35.70737242,150.1761672,regional,4,75.0,ev_00037
+EUR-02,tesla motors - Eurobodalla Shire Council,-36.22313618,150.1283463,regional,8,130.0,ev_00236
+EUR-03,nrma electric - Eurobodalla Shire Council,-35.70851156,150.1753874,regional,2,50.0,ev_00412
+EUR-04,evie networks - Eurobodalla Shire Council,-35.71073278,150.1776366,regional,2,50.0,ev_00612
+EUR-05,nrma electric - Eurobodalla Shire Council,-35.7095526,150.173983,regional,4,75.0,ev_00970
+EUR-06,tesla motors - Eurobodalla Shire Council,-35.7196933,150.1897432,regional,6,175.0,ev_01924
+FAI-01,chargefox - Fairfield City Council,-33.84986891,150.8978248,urban,2,150.0,ev_00099
+FAI-02,engie - Fairfield City Council,-33.8505352,150.8988605,urban,2,150.0,ev_00100
+FAI-03,evie networks - Fairfield City Council,-33.898778,150.919791,urban,4,50.0,ev_00528
+FAI-04,bp - Fairfield City Council,-33.8993725,150.9191077,urban,4,175.0,ev_01760
+FED-01,wevolt - Federation Council,-35.99499104,146.001983,regional,4,80.0,ev_00191
+GEO-01,evie networks - Georges River Council,-33.9624686,151.1324696,urban,4,150.0,ev_00050
+GEO-02,jolt - Georges River Council,-33.9492503,151.0812503,urban,2,25.0,ev_00156
+GEO-03,engie - Georges River Council,-33.9354417,151.0685253,urban,2,120.0,ev_00157
+GEO-04,jolt - Georges River Council,-33.96212217,151.0635736,urban,2,25.0,ev_00215
+GEO-05,evie networks - Georges River Council,-33.96168115,151.1325903,urban,4,150.0,ev_00247
+GEO-06,jolt - Georges River Council,-33.96242247,151.1343213,urban,2,25.0,ev_00279
+GEO-07,jolt - Georges River Council,-33.9701502,151.0801331,urban,2,25.0,ev_00329
+GEO-08,evie networks - Georges River Council,-33.952562,151.05103,urban,4,75.0,ev_00366
+GEO-09,jolt - Georges River Council,-33.95077182,151.051971,urban,2,25.0,ev_00407
+GEO-10,jolt - Georges River Council,-33.96786191,151.1060561,urban,2,25.0,ev_00444
+GEO-11,jolt - Georges River Council,-33.94841746,151.0710831,urban,2,25.0,ev_00552
+GEO-12,jolt - Georges River Council,-33.981453,151.079434,urban,1,25.0,ev_00921
+GIL-01,nrma electric - Gilgandra Shire Council,-30.0205758,148.1181013,regional,4,75.0,ev_00649
+GLE-01,nrma electric - Glen Innes Severn Council,-29.73846351,151.7363083,regional,2,50.0,ev_00959
+GOU-01,bp - Goulburn Mulwaree Council,-34.71852257,150.0003884,regional,2,75.0,ev_00192
+GOU-02,bp - Goulburn Mulwaree Council,-34.71922127,149.9953273,regional,2,75.0,ev_00193
+GOU-03,tesla motors - Goulburn Mulwaree Council,-34.75552357,149.720998,regional,16,130.0,ev_00304
+GOU-04,chargefox - Goulburn Mulwaree Council,-34.74796201,149.7496456,regional,2,50.0,ev_00609
+GOU-05,tesla motors - Goulburn Mulwaree Council,-34.7720602,149.6923766,regional,20,175.0,ev_01301
+GRE-01,tesla motors - Greater Hume Shire Council,-35.72254759,147.3175105,regional,9,250.0,ev_00503
+GRE-02,nrma electric - Greater Hume Shire Council,-35.7181522,147.316019,regional,2,50.0,ev_00938
+GRI-01,chargefox - Griffith City Council,-34.30172777,146.0826426,regional,1,24.0,ev_00124
+GRI-02,chargefox - Griffith City Council,-34.29922127,146.0782252,regional,2,50.0,ev_00785
+GRI-03,tesla motors - Griffith City Council,-34.2922641,146.0507015,regional,6,175.0,ev_01337
+GUN-01,chargefox - Gunnedah Shire Council,-30.97681086,150.2501652,regional,4,47.0,ev_00125
+GUN-02,nrma electric - Gunnedah Shire Council,-30.97803908,150.2508509,regional,2,50.0,ev_00727
+HAW-01,exploren - Hawkesbury City Council,-33.62676281,150.8353483,urban,2,60.0,ev_00268
+HAW-02,exploren - Hawkesbury City Council,-33.58328633,150.7009239,urban,2,180.0,ev_00536
+HAW-03,ampol - Hawkesbury City Council,-33.63860965,150.7837227,urban,4,150.0,ev_00702
+HAY-01,nrma electric - Hay Shire Council,-34.50890395,144.8427858,regional,4,180.0,ev_00141
+HAY-02,nrma electric - Hay Shire Council,-34.50908013,144.8410701,regional,2,50.0,ev_00142
+HAY-03,tesla motors - Hay Shire Council,-34.5115082,144.8422816,regional,6,175.0,ev_01671
+HIL-01,nrma electric - Hilltops Council,-34.82342947,148.3257027,regional,2,50.0,ev_00943
+HIL-02,nrma electric - Hilltops Council,-34.31177382,148.2950991,regional,2,50.0,ev_00946
+HOR-01,"jolt - Hornsby, The Council of the Shire of",-33.75051656,151.0650831,urban,2,25.0,ev_00073
+HOR-02,"jolt - Hornsby, The Council of the Shire of",-33.70973178,151.1045866,urban,2,25.0,ev_00092
+HOR-03,"evie networks - Hornsby, The Council of the Shire of",-33.70276181,151.0964792,urban,4,50.0,ev_00128
+HOR-04,"evie networks - Hornsby, The Council of the Shire of",-33.7366211,151.0743388,urban,2,50.0,ev_00466
+HOR-05,"ampol - Hornsby, The Council of the Shire of",-33.7105301,151.1024488,urban,2,125.0,ev_00643
+HOR-06,"chargefox - Hornsby, The Council of the Shire of",-33.62137942,151.1494484,urban,2,75.0,ev_00647
+HOR-07,"ampol - Hornsby, The Council of the Shire of",-33.6828871,151.0284517,urban,2,125.0,ev_00774
+HOR-08,"jolt - Hornsby, The Council of the Shire of",-33.623906,151.151802,urban,1,25.0,ev_00811
+HOR-09,"bp - Hornsby, The Council of the Shire of",-33.68997402,151.1061692,urban,2,75.0,ev_00881
+HUN-01,"evie networks - Hunters Hill, The Council of the Municipality of",-33.83281286,151.1277918,urban,2,75.0,ev_00511
+HUN-02,"evie networks - Hunters Hill, The Council of the Municipality of",-33.8329216,151.1276887,urban,2,75.0,ev_01520
+INN-01,evie networks - Inner West Council,-33.88518,151.148629,urban,4,75.0,ev_00127
+INN-02,evie networks - Inner West Council,-33.907982,151.170899,urban,4,50.0,ev_00298
+INN-03,evie networks - Inner West Council,-33.889564,151.123599,urban,4,50.0,ev_00384
+INN-04,bp - Inner West Council,-33.91611516,151.1728939,urban,2,75.0,ev_00461
+INN-05,bp - Inner West Council,-33.87410415,151.1267628,urban,4,75.0,ev_00637
+INN-06,evie networks - Inner West Council,-33.92288364,151.1652088,urban,4,150.0,ev_00669
+INN-07,exploren - Inner West Council,-33.89360765,151.1783463,urban,2,50.0,ev_00718
+INN-08,eve australia - Inner West Council,-33.8934749,151.178294,urban,2,60.0,ev_01688
+INN-09,eve australia - Inner West Council,-33.8803158,151.1299199,urban,2,25.0,ev_01851
+INV-01,nrma electric - Inverell Shire Council,-35.1086448,147.3732036,regional,2,75.0,ev_00822
+KUR-01,ampol - Ku-ring-gai Council,-33.7307758,151.1570112,urban,2,125.0,ev_00207
+KUR-02,evie networks - Ku-ring-gai Council,-33.7323514,151.1307097,urban,4,75.0,ev_00398
+KUR-03,exploren - Ku-ring-gai Council,-33.73201706,151.1273493,urban,2,40.0,ev_00588
+KUR-04,exploren - Ku-ring-gai Council,-33.76357562,151.1336246,urban,2,60.0,ev_00934
+KUR-05,jolt - Ku-ring-gai Council,-33.782904,151.175213,urban,1,25.0,ev_00947
+KUR-06,evie networks - Ku-ring-gai Council,-33.732342,151.1304142,urban,4,75.0,ev_01439
+LAK-01,evie networks - Lake Macquarie City Council,-32.89647352,151.5977107,regional,8,350.0,ev_00103
+LAK-02,evie networks - Lake Macquarie City Council,-33.088721,151.637587,regional,4,50.0,ev_00186
+LAK-03,everty - Lake Macquarie City Council,-33.09176581,151.6374214,regional,2,25.0,ev_00342
+LAK-04,evie networks - Lake Macquarie City Council,-32.96354505,151.6617414,regional,4,150.0,ev_00358
+LAK-05,bp - Lake Macquarie City Council,-32.93782987,151.6567367,regional,4,150.0,ev_00459
+LAK-06,exploren - Lake Macquarie City Council,-33.01454359,151.5961952,regional,2,40.0,ev_00685
+LAN-01,evie networks - Lane Cove Municipal Council,-33.813936,151.169298,urban,4,50.0,ev_00283
+LAN-02,jolt - Lane Cove Municipal Council,-33.80837842,151.1785636,urban,2,25.0,ev_00573
+LAN-03,bp - Lane Cove Municipal Council,-33.8245399,151.172579,urban,4,175.0,ev_01662
+LIS-01,chargefox - Lismore City Council,-28.80654859,153.2786376,regional,2,75.0,ev_00555
+LIT-01,"evie networks - Lithgow Council, City of",-33.48184889,150.1361812,regional,4,150.0,ev_00288
+LIT-02,"nrma electric - Lithgow Council, City of",-33.47800605,150.1611241,regional,4,50.0,ev_00687
+LIT-03,"nrma electric - Lithgow Council, City of",-33.48123828,150.1588018,regional,4,180.0,ev_00852
+LIV-01,evie networks - Liverpool City Council,-33.948829,150.90027,urban,4,50.0,ev_00024
+LIV-02,jolt - Liverpool City Council,-33.92522427,150.9265836,urban,2,25.0,ev_00084
+LIV-03,evie networks - Liverpool City Council,-33.95224765,150.8557529,urban,4,150.0,ev_00257
+LIV-04,ampol - Liverpool City Council,-33.9558559,150.8648944,urban,2,125.0,ev_00312
+LIV-05,jolt - Liverpool City Council,-33.95800605,150.8864635,urban,2,25.0,ev_00339
+LIV-06,jolt - Liverpool City Council,-33.9581552,150.8866296,urban,2,25.0,ev_00340
+LIV-07,ampol - Liverpool City Council,-33.92932037,150.9551001,urban,2,150.0,ev_00918
+LIV-08,nrma electric - Liverpool City Council,-33.9304674,150.8750193,urban,4,175.0,ev_01541
+MAI-01,ampol - Maitland City Council,-33.2179895,151.5103011,urban,4,125.0,ev_00926
+MID-01,evie networks - Mid-Coast Council,-31.94333438,152.4706146,regional,4,150.0,ev_00303
+MID-02,nrma electric - Mid-Coast Council,-32.09907112,152.3815746,regional,2,50.0,ev_00496
+MID-03,tesla motors - Mid-Coast Council,-31.9091185,152.4602815,regional,12,175.0,ev_01555
+MID-04,nrma electric - Mid-Western Regional Council,-32.59368073,149.5862633,regional,2,50.0,ev_00910
+MID-05,nrma electric - Mid-Western Regional Council,-32.58960965,149.5857578,regional,4,125.0,ev_00954
+MOR-01,nrma electric - Moree Plains Shire Council,-35.3548636,145.725081,regional,2,50.0,ev_00394
+MOS-01,evie networks - Mosman Municipal Council,-33.83108413,151.2436587,urban,4,50.0,ev_00239
+MOS-02,evie networks - Mosman Municipal Council,-33.82807512,151.2434454,urban,2,75.0,ev_00519
+MOS-03,evie networks - Mosman Municipal Council,-33.82554959,151.2414274,urban,2,50.0,ev_00653
+MOS-04,chargefox - Mosman Municipal Council,-33.82852457,151.2439029,urban,2,47.0,ev_00699
+MOS-05,bp - Mosman Municipal Council,-33.83197602,151.2373874,urban,2,75.0,ev_00804
+MOS-06,evie networks - Mosman Municipal Council,-33.8276585,151.2423815,urban,2,75.0,ev_01776
+MUR-01,bp - Murrumbidgee Council,-35.3608978,145.7194667,regional,6,175.0,ev_01903
+MUS-01,tesla motors - Muswellbrook Shire Council,-32.44806211,150.8316627,regional,12,130.0,ev_00482
+NAM-01,bp - Nambucca Valley Council,-30.6267528,152.9724735,regional,2,75.0,ev_00265
+NAM-02,evie networks - Nambucca Valley Council,-30.71023028,152.9197698,regional,4,350.0,ev_00354
+NAR-01,nrma electric - Narrabri Shire Council,-29.0572067,152.0186837,regional,4,50.0,ev_00755
+NAR-02,tesla motors - Narrabri Shire Council,-30.3226373,149.7801888,regional,4,175.0,ev_01878
+NAR-03,nrma electric - Narrandera Shire Council,-34.74649754,146.5500761,regional,4,180.0,ev_00408
+NAR-04,nrma electric - Narrandera Shire Council,-34.74651756,146.548011,regional,2,50.0,ev_00409
+NEW-01,chargefox - Newcastle City Council,-32.90870375,151.7304655,regional,2,60.0,ev_00463
+NEW-02,chargefox - Newcastle City Council,-32.92120425,151.747975,regional,2,60.0,ev_00574
+NEW-03,nrma electric - Newcastle City Council,-32.90272177,151.6697678,regional,4,50.0,ev_00704
+NEW-04,bp - Newcastle City Council,-32.81193998,151.6394685,regional,2,75.0,ev_00883
+NEW-05,exploren - Newcastle City Council,-32.94079384,151.7105495,regional,4,60.0,ev_00953
+NEW-06,chargefox - Newcastle City Council,-32.90876,151.7296847,regional,2,60.0,ev_01479
+NEW-07,chargefox - Newcastle City Council,-32.9212044,151.7479743,regional,2,60.0,ev_01557
+NOR-01,evie networks - North Sydney Council,-33.8273504,151.2303373,urban,4,75.0,ev_00068
+NOR-02,evie networks - North Sydney Council,-33.83274979,151.2064264,urban,4,75.0,ev_00178
+NOR-03,evie networks - North Sydney Council,-33.82299004,151.2108829,urban,4,50.0,ev_00662
+NOR-04,evie networks - North Sydney Council,-33.82378797,151.1951941,urban,4,50.0,ev_00750
+NOR-05,evie networks - North Sydney Council,-33.809326,151.208848,urban,4,50.0,ev_00764
+NOR-06,evie networks - North Sydney Council,-33.82301829,151.2093468,urban,4,75.0,ev_00836
+NOR-07,evie networks - North Sydney Council,-33.82462167,151.1997668,urban,4,75.0,ev_00932
+NOR-08,evie networks - North Sydney Council,-33.833276,151.2071934,urban,4,75.0,ev_01398
+NOR-09,evie networks - North Sydney Council,-33.8227718,151.2109254,urban,4,50.0,ev_01621
+NOR-10,evie networks - North Sydney Council,-33.8243185,151.2002301,urban,4,75.0,ev_01640
+NOR-11,evie networks - North Sydney Council,-33.8272794,151.2301624,urban,4,75.0,ev_01853
+NOR-12,jolt - Northern Beaches Council,-33.67613618,151.3039429,urban,2,25.0,ev_00036
+NOR-13,jolt - Northern Beaches Council,-33.73111016,151.301011,urban,2,25.0,ev_00070
+NOR-14,jolt - Northern Beaches Council,-33.59707712,151.320022,urban,2,25.0,ev_00088
+NOR-15,engie - Northern Beaches Council,-33.6971741,151.2956935,urban,2,150.0,ev_00110
+NOR-16,ampol - Northern Beaches Council,-33.70444949,151.2968509,urban,2,150.0,ev_00181
+NOR-17,jolt - Northern Beaches Council,-33.75370175,151.287,urban,2,25.0,ev_00202
+NOR-18,tesla motors - Northern Beaches Council,-33.7930342,151.2641426,urban,6,175.0,ev_00254
+NOR-19,evie networks - Northern Beaches Council,-33.75133669,151.2434692,urban,4,150.0,ev_00369
+NOR-20,jolt - Northern Beaches Council,-33.71943448,151.2986617,urban,2,25.0,ev_00375
+NOR-21,evie networks - Northern Beaches Council,-33.75442135,151.2873331,urban,4,150.0,ev_00392
+NOR-22,jolt - Northern Beaches Council,-33.77897702,151.2838899,urban,2,25.0,ev_00432
+NOR-23,evie networks - Northern Beaches Council,-33.703313,151.213158,urban,4,50.0,ev_00566
+NOR-24,bp - Northern Beaches Council,-33.7953594,151.255969,urban,2,75.0,ev_00576
+NOR-25,jolt - Northern Beaches Council,-33.76210915,151.2142012,urban,2,25.0,ev_00640
+NOR-26,jolt - Northern Beaches Council,-33.6760501,151.3031301,urban,2,25.0,ev_00681
+NOR-27,jolt - Northern Beaches Council,-33.7523594,151.2865606,urban,2,25.0,ev_00696
+NOR-28,jolt - Northern Beaches Council,-33.76207512,151.2724464,urban,2,25.0,ev_00745
+NOR-29,tesla motors - Northern Beaches Council,-33.75321026,151.2873604,urban,4,250.0,ev_00753
+NOR-30,jolt - Northern Beaches Council,-33.7136587,151.2982913,urban,2,25.0,ev_00766
+NOR-31,jolt - Northern Beaches Council,-33.71376381,151.2971421,urban,2,25.0,ev_00931
+ORA-01,nrma electric - Orange City Council,-33.28142647,149.1027898,regional,2,50.0,ev_00821
+ORA-02,tesla motors - Orange City Council,-33.2833264,149.0944601,regional,6,175.0,ev_01701
+PAR-01,nrma electric - Parkes Shire Council,-33.13720725,148.1726176,regional,2,75.0,ev_00843
+PAR-02,tesla motors - Parkes Shire Council,-33.1413775,148.1740685,regional,4,175.0,ev_01734
+PAR-03,"exploren - Parramatta, Council of the City of",-33.81024029,151.0342402,urban,2,120.0,ev_00451
+PAR-04,"ampol - Parramatta, Council of the City of",-33.7878745,150.9946557,urban,2,125.0,ev_00792
+PAR-05,"bp - Parramatta, Council of the City of",-33.81961366,151.0213463,urban,4,150.0,ev_00868
+PAR-06,"bp - Parramatta, Council of the City of",-33.81968873,151.0213023,urban,4,150.0,ev_00869
+PAR-07,"nrma electric - Parramatta, Council of the City of",-33.84603808,151.0698058,urban,2,50.0,ev_00915
+PEN-01,ampol - Penrith City Council,-33.7428103,150.6929292,urban,2,125.0,ev_00187
+PEN-02,evie networks - Penrith City Council,-33.770295,150.673823,urban,4,350.0,ev_00332
+PEN-03,evie networks - Penrith City Council,-33.76927632,150.7354595,urban,2,50.0,ev_00736
+PEN-04,ampol - Penrith City Council,-33.74298103,150.69296,urban,2,150.0,ev_00825
+PEN-05,ampol - Penrith City Council,-33.7463077,150.7413197,urban,2,125.0,ev_00832
+PEN-06,jolt - Penrith City Council,-33.750304,150.694089,urban,1,25.0,ev_00929
+PEN-07,bp - Penrith City Council,-33.7601979,150.7816339,urban,4,175.0,ev_01681
+POR-01,tesla motors - Port Macquarie-Hastings Council,-31.43610015,152.8235826,regional,12,130.0,ev_00060
+POR-02,chargefox - Port Macquarie-Hastings Council,-31.46394199,152.8219499,regional,4,180.0,ev_00069
+POR-03,tesla motors - Port Macquarie-Hastings Council,-31.4577518,152.8267908,regional,12,250.0,ev_00171
+POR-04,tesla motors - Port Macquarie-Hastings Council,-31.63426031,152.7250501,regional,8,250.0,ev_00277
+POR-05,nrma electric - Port Macquarie-Hastings Council,-31.45803208,152.8274244,regional,2,50.0,ev_00606
+POR-06,nrma electric - Port Macquarie-Hastings Council,-31.4561542,152.7327227,regional,4,60.0,ev_00870
+POR-07,tesla motors - Port Stephens Council,-32.78729434,151.7283534,regional,12,130.0,ev_00343
+POR-08,bp - Port Stephens Council,-32.78334139,151.7370591,regional,2,75.0,ev_00352
+POR-09,chargefox - Port Stephens Council,-32.6538509,151.9625806,regional,6,185.0,ev_00529
+POR-10,chargefox - Port Stephens Council,-32.70138843,152.0626466,regional,2,24.0,ev_00961
+POR-11,tesla motors - Port Stephens Council,-32.7645423,151.7425233,regional,12,175.0,ev_01763
+QUE-01,nrma electric - Queanbeyan-Palerang Regional Council,-31.4988197,145.8375768,regional,4,50.0,ev_00180
+QUE-02,evie networks - Queanbeyan-Palerang Regional Council,-35.34739722,149.2454031,regional,4,75.0,ev_00418
+QUE-03,nrma electric - Queanbeyan-Palerang Regional Council,-35.3549827,149.2329145,regional,4,175.0,ev_01764
+RAN-01,jolt - Randwick City Council,-33.90717322,151.2239409,urban,2,25.0,ev_00087
+RAN-02,jolt - Randwick City Council,-33.91307612,151.2387948,urban,2,50.0,ev_00167
+RAN-03,jolt - Randwick City Council,-33.95633138,151.2265986,urban,2,25.0,ev_00182
+RAN-04,chargefox - Randwick City Council,-33.91374579,151.2390611,urban,2,42.0,ev_00227
+RAN-05,evie networks - Randwick City Council,-33.98102507,151.2497087,urban,2,75.0,ev_00264
+RAN-06,jolt - Randwick City Council,-33.92159464,151.2565566,urban,2,50.0,ev_00347
+RAN-07,bp - Randwick City Council,-33.91983588,151.226974,urban,2,75.0,ev_00495
+RAN-08,chargefox - Randwick City Council,-33.95139644,151.232049,urban,8,25.0,ev_00540
+RAN-09,jolt - Randwick City Council,-33.9610561,151.2309449,urban,2,25.0,ev_00622
+RAN-10,evie networks - Randwick City Council,-33.92659564,151.2313293,urban,4,75.0,ev_00642
+RAN-11,evie networks - Randwick City Council,-33.915171,151.241129,urban,4,50.0,ev_00698
+RAN-12,evie networks - Randwick City Council,-33.93800905,151.2385195,urban,4,75.0,ev_00710
+RAN-13,jolt - Randwick City Council,-33.94349854,151.2397227,urban,2,25.0,ev_00734
+RAN-14,evie networks - Randwick City Council,-33.94314819,151.2396466,urban,2,75.0,ev_00746
+RAN-15,evie networks - Randwick City Council,-33.92407212,151.2266947,urban,2,50.0,ev_00754
+RAN-16,Evie Networks,-33.9242319,151.2266791,urban,2,50.0,ev_00775
+RAN-17,chargefox - Randwick City Council,-33.91910615,151.2547838,urban,2,42.0,ev_00791
+RAN-18,chargefox - Randwick City Council,-33.97296101,151.2365656,urban,2,40.0,ev_00817
+RAN-19,evie networks - Randwick City Council,-33.96116721,151.2488509,urban,2,75.0,ev_00856
+RAN-20,evie networks - Randwick City Council,-33.9808158,151.2498636,urban,2,75.0,ev_01340
+RAN-21,evie networks - Randwick City Council,-33.9260318,151.2312658,urban,4,75.0,ev_01615
+RAN-22,evie networks - Randwick City Council,-33.9406054,151.2395169,urban,4,75.0,ev_01716
+RAN-23,evie networks - Randwick City Council,-33.9427694,151.2401202,urban,2,75.0,ev_01735
+RAN-24,evie networks - Randwick City Council,-33.9626402,151.245869,urban,4,75.0,ev_01892
+RIC-01,nrma electric - Richmond Valley Council,-35.442745,149.7913305,regional,4,50.0,ev_00028
+RIC-02,tesla motors - Richmond Valley Council,-30.8015492,152.8689544,regional,12,175.0,ev_01703
+RYD-01,"exploren - Ryde, Council of the City of",-33.8208589,151.121011,urban,2,120.0,ev_00569
+RYD-02,"evie networks - Ryde, Council of the City of",-33.776893,151.122247,urban,4,50.0,ev_00834
+RYD-03,"tesla motors - Ryde, Council of the City of",-33.77721726,151.1208809,urban,20,130.0,ev_00835
+RYD-04,"bp - Ryde, Council of the City of",-33.8067305,151.0708812,urban,4,175.0,ev_01895
+SHE-01,evie networks - Shellharbour City Council,-34.5504346,150.7877814,regional,2,50.0,ev_00136
+SHE-02,ampol - Shellharbour City Council,-34.56639944,150.8394074,regional,10,150.0,ev_00323
+SHE-03,chargefox - Shellharbour City Council,-34.58859964,150.8661131,regional,2,350.0,ev_00867
+SHO-01,nrma electric - Shoalhaven City Council,-34.77559464,150.7010871,regional,2,50.0,ev_00155
+SHO-02,nrma electric - Shoalhaven City Council,-34.87360065,150.6005345,regional,4,160.0,ev_00198
+SHO-03,chargefox - Shoalhaven City Council,-34.84356861,150.5955365,regional,4,47.0,ev_00456
+SHO-04,chargehub - Shoalhaven City Council,-35.3576507,150.4733804,regional,2,25.0,ev_00778
+SHO-05,tesla motors - Shoalhaven City Council,-34.80794299,150.637044,regional,12,130.0,ev_00805
+SHO-06,evie networks - Shoalhaven City Council,-35.3595567,150.4754013,regional,4,175.0,ev_01711
+SIN-01,everty - Singleton Council,-32.57698603,151.1842142,regional,2,50.0,ev_00972
+SNO-01,tesla motors - Snowy Monaro Regional Council,-36.23294099,149.1322903,regional,10,250.0,ev_00438
+SNO-02,bp - Snowy Monaro Regional Council,-36.4147548,148.6177838,regional,4,75.0,ev_00721
+SNO-03,tesla motors - Snowy Monaro Regional Council,-36.23552257,149.1267948,regional,8,150.0,ev_00739
+SNO-04,nrma electric - Snowy Monaro Regional Council,-36.415952,148.6198038,regional,4,50.0,ev_00839
+SNO-05,chargefox - Snowy Valleys Council,-35.7735596,148.0094114,regional,2,100.0,ev_00894
+STR-01,jolt - Strathfield,-33.86603808,151.0644525,urban,2,25.0,ev_00248
+STR-02,exploren - Strathfield,-33.90204809,151.0655796,urban,2,120.0,ev_00674
+STR-03,evie networks - Strathfield Municipal Council,-33.86390159,151.0894518,urban,4,75.0,ev_00423
+STR-04,engie - Strathfield Municipal Council,-33.8556219,151.0767955,urban,2,150.0,ev_00484
+STR-05,ampol - Strathfield Municipal Council,-33.9047231,151.0645884,urban,2,125.0,ev_00748
+SUT-01,evie networks - Sutherland Shire Council,-34.02927306,151.1220736,urban,4,75.0,ev_00331
+SUT-02,chargefox - Sutherland Shire Council,-34.03434039,151.0726517,urban,4,47.0,ev_00502
+SUT-03,ampol - Sutherland Shire Council,-34.02936741,151.0807237,urban,2,150.0,ev_00575
+SUT-04,tesla motors - Sutherland Shire Council,-34.03339744,151.0731502,urban,6,250.0,ev_00638
+SUT-05,jolt - Sutherland Shire Council,-34.05771,151.151975,urban,1,25.0,ev_00841
+SUT-06,exploren - Sutherland Shire Council,-34.0278569,151.1217848,urban,2,50.0,ev_00889
+SUT-07,bp - Sutherland Shire Council,-34.0774032,151.0112053,urban,4,175.0,ev_01896
+SYD-01,"tesla motors - Sydney, Council of the City of",-33.88350355,151.1944334,urban,16,130.0,ev_00006
+SYD-02,"tesla motors - Sydney, Council of the City of",-33.87650055,151.178,urban,4,250.0,ev_00012
+SYD-03,"ampol - Sydney, Council of the City of",-33.90556061,151.2126807,urban,6,150.0,ev_00513
+SYD-04,"exploren - Sydney, Council of the City of",-33.87152357,151.2067017,urban,2,60.0,ev_00562
+SYD-05,"exploren - Sydney, Council of the City of",-33.90533738,151.1936567,urban,2,120.0,ev_00717
+SYD-06,"chargefox - Sydney, Council of the City of",-33.90701506,151.213019,urban,3,165.0,ev_00759
+SYD-07,"ampol - Sydney, Council of the City of",-33.89561066,151.1961411,urban,6,150.0,ev_00826
+SYD-08,"jolt - Sydney, Council of the City of",-33.92049354,151.1907497,urban,2,25.0,ev_00858
+SYD-09,"jolt - Sydney, Council of the City of",-33.92059364,151.1914745,urban,2,25.0,ev_00859
+SYD-10,"tesla motors - Sydney, Council of the City of",-33.898174,151.2117721,urban,8,175.0,ev_01411
+SYD-11,"tesla motors - Sydney, Council of the City of",-33.9132474,151.1935823,urban,6,175.0,ev_01836
+TAM-01,tesla motors - Tamworth Regional Council,-31.10164969,150.9171261,regional,8,130.0,ev_00636
+TAM-02,nrma electric - Tamworth Regional Council,-31.0903554,150.9274134,regional,2,50.0,ev_00884
+TAM-03,evie networks - Tamworth Regional Council,-31.0900932,150.9304748,regional,4,175.0,ev_01512
+TEM-01,nrma electric - Temora Shire Council,-30.9827002,151.5928644,regional,2,50.0,ev_00823
+TEN-01,nrma electric - Tenterfield Shire Council,-31.5645996,147.1969355,regional,2,50.0,ev_00194
+TEN-02,tesla motors - Tenterfield Shire Council,-29.0565237,152.0181884,regional,4,175.0,ev_01937
+THE-01,evie networks - The Hills Shire Council,-33.727803,150.976049,urban,4,50.0,ev_00229
+THE-02,bp - The Hills Shire Council,-33.71274679,150.9591602,urban,2,75.0,ev_00249
+THE-03,jolt - The Hills Shire Council,-33.71252457,150.9583413,urban,2,25.0,ev_00404
+THE-04,tesla motors - The Hills Shire Council,-33.75869074,150.9914705,urban,4,250.0,ev_00500
+THE-05,jolt - The Hills Shire Council,-33.68328033,150.9165856,urban,2,25.0,ev_00524
+THE-06,chargefox - The Hills Shire Council,-33.73886191,150.9475235,urban,4,125.0,ev_00714
+THE-07,evie networks - The Hills Shire Council,-33.60191393,151.0082442,urban,4,75.0,ev_00779
+TWE-01,evie networks - Tweed Shire Council,-28.27690295,153.5770781,regional,4,75.0,ev_00007
+TWE-02,tesla motors - Tweed Shire Council,-28.17378983,153.5445165,regional,6,250.0,ev_00048
+TWE-03,evie networks - Tweed Shire Council,-28.21510115,153.5404384,regional,4,75.0,ev_00426
+TWE-04,evie networks - Tweed Shire Council,-28.19898503,153.545985,regional,4,150.0,ev_00616
+TWE-05,nrma electric - Tweed Shire Council,-28.332159,153.5641479,regional,4,175.0,ev_01757
+UNK-01,tesla motors - Sydney - Northern Beaches,-33.7929122,151.2645298,urban,6,350.0,ev_01048
+UNK-02,university of - Illawarra,-34.4079569,150.877135,regional,6,350.0,ev_01058
+UNK-03,tesla motors - Sydney - Outer South West,-34.0722029,150.8068155,urban,12,350.0,ev_01071
+UNK-04,viva energy australia - Sydney - Outer South West,-34.0495366,150.7601125,urban,4,350.0,ev_01082
+UNK-05,tesla motors - Illawarra,-34.4366153,150.8632982,regional,6,350.0,ev_01084
+UPP-01,nrma electric - Upper Hunter Shire Council,-31.9598511,141.4601038,regional,2,50.0,ev_00095
+WAG-01,evie networks - Wagga Wagga City Council,-35.2771512,147.7360881,regional,4,350.0,ev_00455
+WAG-02,nrma electric - Wagga Wagga City Council,-31.7223908,148.6571378,regional,2,50.0,ev_00726
+WAG-03,everty - Wagga Wagga City Council,-35.12347852,147.3992282,regional,2,25.0,ev_00960
+WAG-04,exploren - Wagga Wagga City Council,-35.05693398,147.3512593,regional,2,120.0,ev_00969
+WAG-05,tesla motors - Wagga Wagga City Council,-35.1317745,147.3398455,regional,6,175.0,ev_01319
+WAG-06,bp - Wagga Wagga City Council,-35.1262128,147.4209242,regional,6,175.0,ev_01832
+WAL-01,nrma electric - Walcha Council,-29.960127,146.8578887,regional,4,50.0,ev_00077
+WAL-02,nrma electric - Walgett Shire Council,-28.8659158,153.0485564,regional,2,75.0,ev_00379
+WAR-01,nrma electric - Warrumbungle Shire Council,-31.27879984,149.2792432,regional,2,50.0,ev_01762
+WAV-01,evie networks - Waverley Council,-33.89264569,151.2481672,urban,4,75.0,ev_00772
+WAV-02,chargefox - Waverley Council,-33.90722527,151.2647708,urban,2,50.0,ev_00837
+WAV-03,chargefox - Waverley Council,-33.9729613,151.2365649,urban,2,50.0,ev_01695
+WIL-01,evie networks - Willoughby City Council,-33.81707912,151.1889369,urban,6,150.0,ev_00017
+WIL-02,exploren - Willoughby City Council,-33.8215586,151.1964124,urban,2,50.0,ev_00038
+WIL-03,bp - Willoughby City Council,-33.8201522,151.2011902,urban,2,75.0,ev_00211
+WIL-04,chargefox - Willoughby City Council,-33.78601306,151.1980831,urban,6,47.0,ev_00214
+WIL-05,engie - Willoughby City Council,-33.7945647,151.18613,urban,2,150.0,ev_00479
+WIL-06,chargefox - Willoughby City Council,-33.79304309,151.1865576,urban,2,150.0,ev_00481
+WIL-07,chargefox - Willoughby City Council,-33.81391396,151.1777027,urban,2,50.0,ev_00530
+WIL-08,exploren - Willoughby City Council,-33.79641046,151.1836096,urban,2,50.0,ev_00801
+WIL-09,tesla motors - Willoughby City Council,-33.7949453,151.188291,urban,8,175.0,ev_01425
+WIN-01,evie networks - Wingecarribee Shire Council,-34.60721926,150.2251632,regional,8,350.0,ev_00134
+WIN-02,evie networks - Wingecarribee Shire Council,-34.44672777,150.436991,regional,4,150.0,ev_00310
+WIN-03,tesla motors - Wingecarribee Shire Council,-34.60929234,150.2297688,regional,6,250.0,ev_00357
+WOL-01,chargefox - Wollondilly Shire Council,-34.22847652,150.6841562,urban,2,160.0,ev_00020
+WOL-02,ampol - Wollondilly Shire Council,-34.28138543,150.640016,regional,9,150.0,ev_00107
+WOL-03,ampol - Wollondilly Shire Council,-34.28222427,150.6366026,urban,9,150.0,ev_00108
+WOL-04,evie networks - Wollondilly Shire Council,-34.0329857,151.1250638,urban,4,75.0,ev_00617
+WOL-05,nrma electric - Wollondilly Shire Council,-34.16828833,150.6109429,urban,2,50.0,ev_00974
+WOL-06,exploren - Wollongong City Council,-34.40192697,150.8906517,regional,2,60.0,ev_00118
+WOL-07,nrma electric - Wollongong City Council,-29.7756503,151.1151033,regional,4,75.0,ev_00216
+WOL-08,tesla motors - Wollongong City Council,-34.4366153,150.8632982,regional,6,175.0,ev_00246
+WOL-09,evie networks - Wollongong City Council,-34.423975,150.892316,regional,4,50.0,ev_00300
+WOL-10,bp - Wollongong City Council,-34.40332537,150.8914635,regional,2,75.0,ev_00334
+WOL-11,ampol - Wollongong City Council,-34.4859664,150.8064594,regional,2,125.0,ev_00476
+WOL-12,chargefox - Wollongong City Council,-34.39180785,150.8945806,regional,4,47.0,ev_00672
+WOL-13,ampol - Wollongong City Council,-34.4151195,150.8931953,regional,2,125.0,ev_00765
+WOL-14,evie networks - Wollongong City Council,-34.494604,150.795725,regional,4,50.0,ev_00777
+WOL-15,exploren - Wollongong City Council,-34.36218023,150.907982,regional,2,120.0,ev_00810
+WOL-16,chargefox - Wollongong City Council,-34.40008513,150.8996306,regional,3,180.0,ev_00879
+WOL-17,chargefox - Wollongong City Council,-34.4079569,150.877135,regional,6,175.0,ev_00968
+WOO-01,chargefox - Woollahra Municipal Council,-33.88181186,151.2283183,urban,2,30.0,ev_00205
+WOO-02,chargefox - Woollahra Municipal Council,-33.88578883,151.2573263,urban,2,40.0,ev_00281
+WOO-03,chargefox - Woollahra Municipal Council,-33.87899704,151.2623363,urban,2,40.0,ev_00594
+WOO-04,chargefox - Woollahra Municipal Council,-33.85700205,151.2828038,urban,2,40.0,ev_00711
+WOO-05,evie networks - Woollahra Municipal Council,-33.87136141,151.2644124,urban,4,75.0,ev_00769
+WOO-06,evie networks - Woollahra Municipal Council,-33.88851356,151.2376316,urban,2,75.0,ev_00850
+WOO-07,evie networks - Woollahra Municipal Council,-33.8703543,151.2642569,urban,4,75.0,ev_01727
+YAS-01,exploren - Yass Valley Council,-34.99682987,149.3848398,regional,2,60.0,ev_00218
+YAS-02,evie networks - Yass Valley Council,-34.96936041,149.03,regional,2,50.0,ev_00270
+YAS-03,chargefox - Yass Valley Council,-34.84551056,148.9151892,regional,4,47.0,ev_00370
+YAS-04,nrma electric - Yass Valley Council,-34.428348,150.9001506,regional,2,50.0,ev_00730
+YAS-05,tesla motors - Yass Valley Council,-34.8436036,148.9142289,regional,12,175.0,ev_01650

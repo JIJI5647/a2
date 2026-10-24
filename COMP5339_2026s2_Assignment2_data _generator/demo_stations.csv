@@ -1,0 +1,21 @@
+station_id,name,lat,lon,site_type,connectors,max_kw
+DEMO-SYD,Sydney CBD (demo),-33.8688,151.2093,urban,4,150
+DEMO-PAR,Parramatta (demo),-33.8150,151.0011,urban,2,150
+DEMO-CHA,Chatswood (demo),-33.7969,151.1803,urban,2,75
+DEMO-LIV,Liverpool (demo),-33.9200,150.9230,urban,2,150
+DEMO-PEN,Penrith (demo),-33.7507,150.6877,urban,2,350
+DEMO-WOL,Wollongong (demo),-34.4278,150.8931,urban,2,150
+DEMO-NEW,Newcastle (demo),-32.9283,151.7817,urban,4,150
+DEMO-GOS,Gosford (demo),-33.4266,151.3420,urban,2,75
+DEMO-GOU,Goulburn (demo),-34.7546,149.7186,regional,4,350
+DEMO-MIT,Mittagong (demo),-34.4500,150.4500,regional,2,150
+DEMO-PMQ,Port Macquarie (demo),-31.4333,152.9000,regional,2,150
+DEMO-COF,Coffs Harbour (demo),-30.2963,153.1135,regional,2,350
+DEMO-DUB,Dubbo (demo),-32.2569,148.6011,regional,2,75
+DEMO-ORA,Orange (demo),-33.2833,149.1000,regional,2,150
+DEMO-ALB,Albury (demo),-36.0737,146.9135,regional,4,350
+DEMO-TAM,Tamworth (demo),-31.0927,150.9320,regional,2,150
+DEMO-MUD,Mudgee (demo),-32.5944,149.5872,regional,2,75
+DEMO-WAG,Wagga Wagga (demo),-35.1082,147.3598,regional,2,150
+DEMO-BAT,Bathurst (demo),-33.4193,149.5775,regional,2,150
+DEMO-BBY,Batemans Bay (demo),-35.7082,150.1744,regional,2,150

@@ -1,0 +1,2 @@
+# Python 3.9 or newer is required (tested with Python 3.14).
+# generate_dataset.py uses only the standard library, so it needs nothing extra.
