@@ -137,7 +137,8 @@ After changing one of these, rerun s03 and s04.
 |---|---|---|
 | `--max-events N` | 500 (`DEV_MAX_EVENTS`) | stop after N events |
 | `--all` | off | publish the whole stream (~1.4 h) |
-| `--start-seq N` | 0 | start at event N (skip ahead, or resume after a failure) |
+| `--start-seq N` | 0 | start at event N (skip ahead, e.g. for the demo) |
+| `--no-catch-up` | off | with `--start-seq`: do not re-send the state first (plain resume after a failure) |
 | `--delay S` | 0.1 | seconds between messages (must be ≥ 0.1) |
 
 ## 3. Publishing (s05) and receiving (s06)
@@ -193,8 +194,11 @@ Notes:
 
 - On connect, the receiver first gets the retained prices left by earlier runs on the
   same prefix. Use a fresh prefix for a clean test.
-- Starting mid-stream (`--start-seq`), sessions already running have no `start`
-  message, so the receiver may see `meter`/`end` of unknown sessions.
+- Starting mid-stream (`--start-seq N`), s05 first re-sends the state at N
+  (catch-up): the latest price of every station and the `start` of every session
+  still running, as the original messages (same `seq`/`event_id`). The receiver
+  then knows all current prices and occupied connectors from the first second.
+  At 10756 this is 628 messages (~1 min). `--no-catch-up` skips it.
 
 ## Assumptions
 
@@ -241,8 +245,8 @@ python src/s05_publish_events.py --start-seq 10756 --max-events 100
 
 The subscribe command uses B's `EventSubscriber(store=store)` and runs until
 Ctrl+C. It needs `paho-mqtt` from requirements.txt. For a complete history, start
-at sequence 0 and publish with `--all`. Starting mid-stream creates partial
-sessions with an unknown start time. Do not run the standalone receiver and the
+at sequence 0 and publish with `--all`. Starting mid-stream with `--no-catch-up`
+creates partial sessions with an unknown start time. Do not run the standalone receiver and the
 Dash process as separate writers against the same DuckDB file; Dash already
 creates a shared store/subscriber in one process.
 
