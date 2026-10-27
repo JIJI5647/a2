@@ -1,6 +1,7 @@
-duckdb>=1.1
-pandas>=2.2
-paho-mqtt>=2.0
-dash>=2.17
-dash-leaflet>=1.0
-plotly>=5.20
+# Tested with Python 3.13. Exact versions for a reproducible environment.
+duckdb==1.5.6
+pandas==3.0.6
+paho-mqtt==2.1.0
+dash==4.4.1
+dash-leaflet==1.1.3
+plotly==7.1.0

@@ -56,9 +56,8 @@ def load_dc_chargers(con: duckdb.DuckDBPyConnection):
                 CASE WHEN s.GCC_NAME26 = 'Greater Sydney' THEN 'urban' ELSE 'regional' END AS site_type,
                 d.Number_of_plugs AS connectors,
                 -- '2x350kW & 2x175kW' -> 350: take the highest "<number> kW" value
-                list_max(list_transform(
-                    regexp_extract_all(d.Charger_rating, '([0-9.]+)\\s*kW', 1),
-                    x -> CAST(x AS DOUBLE))) AS max_kw,
+                list_max(CAST(
+                    regexp_extract_all(d.Charger_rating, '([0-9.]+)\\s*kW', 1) AS DOUBLE[])) AS max_kw,
                 d.LGANAME
             FROM dc_chargers d
             JOIN sa4_regions s ON s.SA4_CODE26 = d.SA4_CODE26
