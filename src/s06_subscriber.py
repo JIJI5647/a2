@@ -1,21 +1,13 @@
-"""s06 · Member B · Task 3/4: MQTT subscriber; receives events, updates LiveState and EventStore.
-
-Same pattern as the Week 9 tutorial (on_connect -> subscribe, on_message -> json.loads),
-but it runs in a background thread (loop_start) so the dashboard can serve pages.
-
-Can also run on its own for debugging (prints one line per message, no dashboard):
-    python src/s06_subscriber.py
-"""
 from __future__ import annotations
 
 import paho.mqtt.client as mqtt
 
 import s00_config as config
 import s01_messages as messages
+from s07_live_state import LiveState
 
 
 def describe(event: dict) -> str:
-    """One readable line per event for the console."""
     kind = event["event_type"] + (f"/{event['status']}" if "status" in event else "")
     if event["event_type"] == "price_update":
         detail = f"${event['price_per_kwh']:.2f}/kWh (was {event['prev_price_per_kwh']})"
@@ -32,7 +24,13 @@ class EventSubscriber:
     def __init__(self, live_state=None, store=None):
         self.live_state = live_state
         self.store = store
+
         self.received = 0
+        self.processed = 0
+        self.duplicates = 0
+        self.errors = 0
+        self._seen_event_ids = set()
+
         self.client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
         self.client.on_connect = self._on_connect
         self.client.on_message = self._on_message
@@ -43,21 +41,44 @@ class EventSubscriber:
         client.subscribe(f"{config.TOPIC_ROOT}/#", qos=config.QOS)
 
     def _on_message(self, client, userdata, msg):
-        # paho swallows exceptions raised in callbacks, so log them here.
         try:
             event = messages.decode(msg.payload)
-            if event is None:          # cleared retained message
+
+            if event is None:
                 return
+
             self.received += 1
-            # TODO: drop duplicates by event_id; detect gaps/out-of-order via event["seq"]
-            if self.live_state is not None:
-                self.live_state.apply(event)
+            event_id = event["event_id"]
+
+            if not isinstance(event_id, str) or not event_id:
+                raise ValueError("event_id must be a non-empty string")
+
+            if event_id in self._seen_event_ids:
+                self.duplicates += 1
+                return
+
             if self.store is not None:
                 self.store.insert_event(event)
-            if self.live_state is None and self.store is None:
-                print(describe(event), flush=True)
+
+            if self.live_state is not None:
+                self.live_state.apply(event)
+
+            self._seen_event_ids.add(event_id)
+            self.processed += 1
+
+            print(
+                f"processed={self.processed} "
+                f"type={event['event_type']} "
+                f"station={event['station_id']}",
+                flush=True,
+            )
+
         except Exception as exc:
-            print(f"skipped message on {msg.topic}: {exc!r}", flush=True)
+            self.errors += 1
+            print(
+                f"message failed on {msg.topic}: {exc!r}",
+                flush=True,
+            )
 
     def start(self) -> None:
         self.client.connect(config.BROKER_HOST, config.BROKER_PORT, 60)
@@ -69,7 +90,8 @@ class EventSubscriber:
 
 
 if __name__ == "__main__":
-    sub = EventSubscriber()
+    state = LiveState()
+    sub = EventSubscriber(live_state=state)
     sub.client.connect(config.BROKER_HOST, config.BROKER_PORT, 60)
     try:
         sub.client.loop_forever()
